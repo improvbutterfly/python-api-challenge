@@ -26,7 +26,7 @@ Then it calculates linear regression for:
 
 #### Temperature (F) vs. Latitude
 
-[Temperature vs. Latitude](WeatherPy/images/lat_temp_2020-09-25.png)
+![Temperature vs. Latitude](WeatherPy/images/lat_temp_2020-09-25.png)
 
 * This chart shows that on September 25, 2020, the closer to the equator (latitude = 0), generally the hotter the temperature. Although it is slightly warmer in the Northern Hemisphere (latitude > 0), closer to the equator. This is likely because the Northern Hemisphere is closer to summer than winter compared to the Southern Hemisphere.
 
