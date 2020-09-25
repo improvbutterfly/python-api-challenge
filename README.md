@@ -32,9 +32,21 @@ Then it calculates linear regression for:
 
 #### Humidity (%) vs. Latitude
 
+![Humidity vs. Latitude](WeatherPy/images/lat_humidity_2020-09-25.png)
+
+* Humidity looks fairly evenly distributed across cities, which suggests minimal correlation. This could be a seasonal issue. Given that this chart is during autumn for the Northern Hemisphere, and spring for the Southern Hemisphere, I think it could be interesting to compare with a chart during summer/winter.
+
 #### Cloudiness (%) vs. Latitude
 
+![Cloudiness vs. Latitude](WeatherPy/images/lat_cloud_2020-09-25.png)
+
+* Cloudiness looks fairly evenly distributed across cities, which suggests minimal correlation.
+
 #### Wind Speed (mph) vs. Latitude
+
+![Wind Speed vs. Latitude](WeatherPy/images/lat_wind_2020-09-25.png)
+
+* Wind speed looks fairly evenly distributed across cities, which suggests minimal correlation. Most wind speed is under 20mph. The higher wind speeds above 20mph are generally further away from the equator.
 
 
 ## VacationPy
