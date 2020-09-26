@@ -50,9 +50,13 @@ Then it calculates linear regression for:
 
 ### Linear Regression for 2020-09-25
 
-#### Temperature (F) vs. Northern Hemisphere
+#### Northern Hemisphere vs. Temperature (F)
 
-![Temperature vs. Northern Hemisphere](WeatherPy/images/northern_temp_2020-09-25.png)
+![Northern Hemisphere vs. Temperature](WeatherPy/images/northern_temp_2020-09-25.png)
+
+#### Southern Hemisphere vs. Temperature (F)
+
+![Southern Hemisphere vs. Temperature](WeatherPy/images/southern_temp_2020-09-25.png)
 
 
 
