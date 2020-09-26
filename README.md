@@ -48,5 +48,12 @@ Then it calculates linear regression for:
 
 * Wind speed looks fairly evenly distributed across cities, which suggests minimal correlation. Most wind speed is under 20mph. The higher wind speeds above 20mph are generally further away from the equator.
 
+### Linear Regression for 2020-09-25
+
+#### Temperature (F) vs. Northern Hemisphere
+
+![Temperature vs. Northern Hemisphere](WeatherPy/images/northern_temp_2020-09-25.png)
+
+
 
 ## VacationPy
