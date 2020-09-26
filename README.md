@@ -58,6 +58,30 @@ Then it calculates linear regression for:
 
 ![Southern Hemisphere vs. Temperature](WeatherPy/images/southern_temp_2020-09-25.png)
 
+#### Northern Hemisphere vs. Humidity (%)
+
+![Northern Hemisphere vs. Humidity](WeatherPy/images/northern_humidity_2020-09-25.png)
+
+#### Southern Hemisphere vs. Humidity (%)
+
+![Southern Hemisphere vs. Humidity](WeatherPy/images/southern_humidity_2020-09-25.png)
+
+#### Northern Hemisphere vs. Cloudiness (%)
+
+![Northern Hemisphere vs. Cloudiness](WeatherPy/images/northern_cloudiness_2020-09-25.png)
+
+#### Southern Hemisphere vs. Cloudiness (%)
+
+![Southern Hemisphere vs. Cloudiness](WeatherPy/images/southern_cloudiness_2020-09-25.png)
+
+#### Northern Hemisphere vs. Wind Speed (mph)
+
+![Northern Hemisphere vs. Wind Speed](WeatherPy/images/northern_wind_2020-09-25.png)
+
+#### Southern Hemisphere vs. Wind Speed (mph)
+
+![Southern Hemisphere vs. Wind Speed](WeatherPy/images/southern_wind_2020-09-25.png)
+
 
 
 ## VacationPy
