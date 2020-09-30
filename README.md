@@ -54,42 +54,56 @@ Then it calculates linear regression for:
 
 ![Northern Hemisphere vs. Temperature](WeatherPy/images/northern_temp_2020-09-25.png)
 
+* This graph and r-value suggests there is pretty strong correlation between latitude and temperature in the northern hemisphere. With the data collected, 77% percent fit the regression model. The closer to the equator, the hotter it gets. This makes sense since the equator is the latitude that is closest to the sun.
+
 #### Southern Hemisphere vs. Temperature (F)
 
 ![Southern Hemisphere vs. Temperature](WeatherPy/images/southern_temp_2020-09-25.png)
+
+* This graph and r-value suggests there is pretty strong correlation between latitude and temperature in the southern hemisphere, though not as strong as there is in the northern hemisphere. We can see here that it looks like there are a few outliers, where the temperature is over 100F between Latitude -30 and -20.
 
 #### Northern Hemisphere vs. Humidity (%)
 
 ![Northern Hemisphere vs. Humidity](WeatherPy/images/northern_humidity_2020-09-25.png)
 
+* This graph and r-value suggests there is unlikely any correlation between these factors.
+
 #### Southern Hemisphere vs. Humidity (%)
 
 ![Southern Hemisphere vs. Humidity](WeatherPy/images/southern_humidity_2020-09-25.png)
+
+* This graph and r-value suggests there is unlikely any correlation between these factors.
 
 #### Northern Hemisphere vs. Cloudiness (%)
 
 ![Northern Hemisphere vs. Cloudiness](WeatherPy/images/northern_cloudiness_2020-09-25.png)
 
+* This graph and r-value suggests there is unlikely any correlation between these factors.
+
 #### Southern Hemisphere vs. Cloudiness (%)
 
 ![Southern Hemisphere vs. Cloudiness](WeatherPy/images/southern_cloudiness_2020-09-25.png)
+
+* This graph and r-value suggests there is unlikely any correlation between these factors.
 
 #### Northern Hemisphere vs. Wind Speed (mph)
 
 ![Northern Hemisphere vs. Wind Speed](WeatherPy/images/northern_wind_2020-09-25.png)
 
+* This graph and r-value suggests there is unlikely any correlation between these factors.
+
 #### Southern Hemisphere vs. Wind Speed (mph)
 
 ![Southern Hemisphere vs. Wind Speed](WeatherPy/images/southern_wind_2020-09-25.png)
 
-
+* This graph and r-value suggests there is unlikely any correlation between these factors.
 
 ## VacationPy
 
 [This Notebook](VacationPy.ipynb) takes the data from the CSV file produced by [WeatherPy](WeatherPy.ipynb) and produces a Google heatmap based on the humidity of each city, then finds cities from the data that contain ideal weather conditions (max temperature between 72-77F, 1% cloudiness or less, and wind speed less than 10mph), and uses those cities to call the Google Places API and find the nearest hotel within 5000m of the city's coordinates, then pins the hotels on the earlier heatmap.
 
 ![Heatmap of Humidity](VacationPy/images/heatmap.png)
-*Heatmap*
+*Heatmap for humidiy (%) for cities analyzed*
 
 ![Hotels in Ideal Weather Cities](VacationPy/images/hotel_pins.png)
 *The pins on this map are interactive so when you click on the pins, it will display the city, country, and hotel name, as shown in this example.*
