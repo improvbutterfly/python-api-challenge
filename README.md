@@ -100,7 +100,7 @@ Then it calculates linear regression for:
 
 ## VacationPy
 
-[This Notebook](VacationPy.ipynb) takes the data from the CSV file produced by [WeatherPy](WeatherPy.ipynb) and produces a Google heatmap based on the humidity of each city, then finds cities from the data that contain ideal weather conditions (max temperature between 72-77F, 1% cloudiness or less, and wind speed less than 10mph), and uses those cities to call the Google Places API and find the nearest hotel within 5000m of the city's coordinates, then pins the hotels on the earlier heatmap.
+[This Notebook](VacationPy/VacationPy.ipynb) takes the data from the CSV file produced by [WeatherPy](WeatherPy/WeatherPy.ipynb) and produces a Google heatmap based on the humidity of each city, then finds cities from the data that contain ideal weather conditions (max temperature between 72-77F, 1% cloudiness or less, and wind speed less than 10mph), and uses those cities to call the Google Places API and find the nearest hotel within 5000m of the city's coordinates, then pins the hotels on the earlier heatmap. If you'd like to interact with the Google map that this notebook produced the below images from, you can download [this html file](VacationPy/VacationPy.html)
 
 ![Heatmap of Humidity](VacationPy/images/heatmap.png)
 *Heatmap for humidiy (%) for cities analyzed*
